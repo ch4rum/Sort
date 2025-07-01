@@ -1,18 +1,18 @@
 
 # Sorting - Analysis of Sorting Algorithms
 
-<div align = center>
-<img src="./srcRun.png" height="250px">
+<div align="center">
+  <img src="./srcRun.png" height="350px"><br><br>
+  <a href="#-description"><kbd> Description </kbd></a> &ensp;
+  <a href="#-features"><kbd> Feature </kbd></a> &ensp;
+  <a href="#-contributions"><kbd> Contributions </kbd></a>
+</div>
 
-&ensp;[<kbd> <br> Description <br> </kbd>](#-Description)&ensp;
-&ensp;[<kbd> <br> Usage <br> </kbd>](#-usage)&ensp;
-<br></div>
-
-This is a Python script designed to analyze and compare different sorting algorithms, such as Bubble, Selection, Insertion, Mergesort and Quicksort algorithms. The script allows sorting data from files provided as input, and displays statistics on the execution time of the algorithm used.
+This project provides an implementation of multiple sorting algorithms, such as *Bubble*, *Selection*, *Insertion*, *Mergesort* and *Quicksort* algorithms, written in Python and Go. The script allow you to load numeric data from files, execute sorting using the selected algorithm, and visualize execution statistics such as time elapsed. 
 
 ## ✨ Description
 
-The program provides a command line interface to execute different sorting algorithms depending on the parameters passed to the script. It allows to load a file with data and perform the sorting using any of the mentioned algorithms. In addition, it offers the option to display the requirements needed to run the script and the current version of the program.
+Each implementation ([Go](./Go/README.md) and [Python](./Python/README.md)) provides a command-line interface to run sorting operations over data files.
 
 The algorithms implemented are:
 - **Bubble Sort:** Compares and sorts adjacent items in the list.
@@ -21,28 +21,16 @@ The algorithms implemented are:
 - **Merge Sort:** Divide and conquer to sort.
 - **Quick Sort:** Uses the pivot to split the list and sort the subsets.
 
-Each algorithm is tested with different data sets and the execution time is recorded for each.
+Performace statistics are printed after execurion for comparison.
 
-## 🎸 Usage
+## 🎉 Features
+You can choose your preferred languaje and chek its specific instructions:
 
-To run this script, you need to install some dependencies in your Python environment. To do this, you can use `pip` or `pacman`:
+> - [Python README](./Python/README.md)
+> - [Go README](./Go/README.md)
 
--  First download the code
-```sh
-git clone https://github.com/ch4rum/Sort.git
-cd Sort
-```
+## 📧 Contributions
 
-- Second, install the following dependencie
-```sh
-# In windows & some linux 
-pip install pwntools colorama
+Feel free to fork this repository and propose improvements or additional features though pull requests. 
 
-# In Arch & some derivate
-sudo pacman -S --noconfirm python-colorama python-pwntools
-```
-
-- Now give it execute
-```sh
-python3 main.py
-```
+![SVG](https://readme-typing-svg.demolab.com?lines=All%20contributions%20are%20welcome!&font=Fira%20Code&color=FF6EC7&size=20&pause=1000&width=500)
